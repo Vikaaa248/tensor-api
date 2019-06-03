@@ -1,0 +1,29 @@
+{
+  "name": "recipe-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.5.9",
+    "path": "^0.12.7",
+    "uniqid": "^5.0.3"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mongoose",
+    "restApi",
+    "mongodb",
+    "express"
+  ],
+  "author": "IVTcoders",
+  "license": "ISC"
+}
